@@ -1,0 +1,31 @@
+2023-04-08 16:07:56.037 [main] INFO  c.h.security.SecurityApplication - Starting SecurityApplication using Java 17.0.6 with PID 22500 (C:\Users\DELL\Desktop\SpringBoot-Angular\Spring Security\Jwt\SecurityProject\security\target\classes started by DELL in C:\Users\DELL\Desktop\SpringBoot-Angular\Spring Security\Jwt\SecurityProject)
+2023-04-08 16:07:56.042 [main] INFO  c.h.security.SecurityApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-08 16:07:57.295 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-08 16:07:57.382 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2023-04-08 16:07:58.166 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-08 16:07:58.179 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-08 16:07:58.180 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-08 16:07:58.180 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-08 16:07:58.356 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-08 16:07:58.357 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2211 ms
+2023-04-08 16:07:58.548 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-08 16:07:58.625 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-08 16:07:59.049 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-08 16:07:59.482 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5efe5b25
+2023-04-08 16:07:59.486 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-08 16:07:59.514 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-08 16:07:59.518 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-04-08 16:08:00.972 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-08 16:08:00.988 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-08 16:08:01.592 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-08 16:08:01.947 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@49bc1f6c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67167f8f, org.springframework.security.web.context.SecurityContextHolderFilter@62d21afd, org.springframework.security.web.header.HeaderWriterFilter@13868c41, org.springframework.security.web.authentication.logout.LogoutFilter@5f233f9, com.hachadi.security.config.JwtAuthenticationFilter@3163e03b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@256c6f7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@232be28d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e5190bd, org.springframework.security.web.session.SessionManagementFilter@1952ad9d, org.springframework.security.web.access.ExceptionTranslationFilter@70ccb3bf, org.springframework.security.web.access.intercept.AuthorizationFilter@6329a5b9]
+2023-04-08 16:08:02.213 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-08 16:08:02.239 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-08 16:08:02.249 [main] INFO  c.h.security.SecurityApplication - Started SecurityApplication in 6.976 seconds (process running for 8.271)
+2023-04-08 16:08:02.252 [main] INFO  c.h.security.SecurityApplication - Info level log message
+2023-04-08 16:08:02.252 [main] ERROR c.h.security.SecurityApplication - Error level log message
+2023-04-08 16:08:02.252 [main] INFO  c.h.security.SecurityApplication - Hello every body , it is the first trace !!
+2023-04-08 16:08:38.157 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-08 16:08:38.158 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-04-08 16:08:38.203 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-08 16:08:38.214 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
