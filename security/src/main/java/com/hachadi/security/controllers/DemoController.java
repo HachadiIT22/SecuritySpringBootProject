@@ -1,4 +1,4 @@
-package com.hachadi.security.demo;
+package com.hachadi.security.controllers;
 
 
 import org.springframework.http.ResponseEntity;
